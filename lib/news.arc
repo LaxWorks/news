@@ -383,7 +383,7 @@
 
 ; Page Layout
 
-(= up-url* "grayarrow.gif" down-url* "graydown.gif" logo-url* "arc.png")
+(= up-url* "grayarrow.gif" down-url* "graydown.gif" logo-url* "lax.png")
 
 (defopr favicon.ico req favicon-url*)
 
