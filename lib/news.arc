@@ -1,12 +1,12 @@
 ; things to customize
 (declare 'atstrings t)
 
-(= this-site*    "My Forum"
-   site-url*     "http://news.yourdomain.com/"
-   parent-url*   "http://www.yourdomain.com"
+(= this-site*    "Academical News"
+   site-url*     "http://news.academical.io/"
+   parent-url*   "http://academical.io"
    favicon-url*  ""
-   site-desc*    "What this site is about."               ; for rss feed
-   site-color*   (color 180 180 180)
+   site-desc*    "Academical News."               ; for rss feed
+   site-color*   (color 255 153 0)
    border-color* (color 180 180 180)
    prefer-url*   t)
 
@@ -598,8 +598,6 @@ function vote(node) {
 
 (def toprow (user label)
   (w/bars
-    (when (noob user)
-      (toplink "welcome" welcome-url* label))
     (toplink "new" "newest" label)
     (when user
       (toplink "threads" (threads-url user) label))
