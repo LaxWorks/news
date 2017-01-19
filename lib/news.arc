@@ -6,7 +6,7 @@
    parent-url*   "http://academical.io"
    favicon-url*  ""
    site-desc*    "Academical News."               ; for rss feed
-   site-color*   (color 255 153 0)
+   site-color*   (color 0 153 255)
    border-color* (color 180 180 180)
    prefer-url*   t)
 
